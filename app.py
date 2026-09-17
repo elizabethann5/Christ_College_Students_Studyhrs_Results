@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 from pathlib import Path
 
-model_path = Path(__file__).parent / "student_pass_fail_model.pkl"
+model_path = Path(__file__).parent / "student_pass_fail_model_modified.pkl"
 model = joblib.load(model_path)
 
 st.title("Student Pass Predictor")
